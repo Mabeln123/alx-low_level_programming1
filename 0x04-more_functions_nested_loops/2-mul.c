@@ -1,17 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
- * mu1 - multiplies two integers a and b
- * @a: - The first integer
- * @b: - The second integer
- * Return: Always 0
+ * mul - multiplies two integers
+ * @a: first number
+ * @b: second number
+ * Return: multiplication
  */
-
-int mu1(int a, int b)
+int mul(int a, int b)
 {
-	int result = a * b;
-
-	return (result);
+	return (a * b);
 }
